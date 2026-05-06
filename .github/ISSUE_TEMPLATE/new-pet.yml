@@ -1,0 +1,66 @@
+name: New pet submission / 新桌宠投稿
+description: Submit a ready-to-use Codex pet package by attaching a zip file.
+title: "[Pet] "
+labels: ["pet submission"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for submitting a new Codex pet.
+
+        感谢投稿新的 Codex 桌宠。
+
+        Please attach a zip containing `pet.json`, `spritesheet.webp`, and `contact-sheet.png`.
+
+        请上传包含 `pet.json`、`spritesheet.webp` 和 `contact-sheet.png` 的 zip。
+  - type: input
+    id: pet_id
+    attributes:
+      label: Pet ID / 宠物 ID
+      description: Lowercase letters, numbers, and hyphens only. Example: my-pet
+      placeholder: my-pet
+    validations:
+      required: true
+  - type: input
+    id: display_name
+    attributes:
+      label: Display name / 显示名称
+      placeholder: My Pet
+    validations:
+      required: true
+  - type: textarea
+    id: description_en
+    attributes:
+      label: English description / 英文描述
+      placeholder: A short description for README and pets.json.
+    validations:
+      required: true
+  - type: textarea
+    id: description_zh
+    attributes:
+      label: Chinese description / 中文描述
+      placeholder: 用于 README 和 pets.json 的简短中文描述。
+    validations:
+      required: false
+  - type: textarea
+    id: source_rights
+    attributes:
+      label: Source, inspiration, and rights / 来源、灵感和授权
+      description: Say whether this is original, generated, commissioned, or fanwork-inspired.
+      placeholder: This pet is original/generated/fanwork-inspired. I have permission to share it.
+    validations:
+      required: true
+  - type: checkboxes
+    id: checklist
+    attributes:
+      label: Checklist / 检查清单
+      options:
+        - label: The zip includes pet.json.
+          required: true
+        - label: The zip includes spritesheet.webp.
+          required: true
+        - label: The zip includes contact-sheet.png.
+          required: true
+        - label: I agree to distribute the submitted assets under ASSET-LICENSE.md.
+          required: true
+

@@ -83,6 +83,22 @@ State preview videos are under:
 - `previews/kanade/videos/`
 - `previews/remi/videos/`
 
+## Contribute Pets / 投稿新桌宠
+
+There are two supported submission paths:
+
+支持两种投稿方式：
+
+- Pull request: add `pets/<pet-id>/`, add a contact sheet, update `pets.json`, and run `python scripts/validate_repo.py`.
+- Issue upload: open a "New pet submission" issue and attach a zip containing `pet.json`, `spritesheet.webp`, and `contact-sheet.png`.
+
+- PR 投稿：添加 `pets/<pet-id>/`，添加预览图，更新 `pets.json`，然后运行 `python scripts/validate_repo.py`。
+- Issue 上传：打开 "New pet submission" Issue，上传包含 `pet.json`、`spritesheet.webp`、`contact-sheet.png` 的 zip。
+
+See `CONTRIBUTING.md` and `docs/PET_SPEC.md`.
+
+详见 `CONTRIBUTING.md` 和 `docs/PET_SPEC.md`。
+
 ## Format / 格式
 
 These pets follow the current Codex custom pet package shape:
@@ -107,4 +123,3 @@ These pets follow the current Codex custom pet package shape:
 Some pets are fan-made, character-inspired assets. This repository is unofficial and is not affiliated with OpenAI, Codex, SEGA, Colorful Palette, Team Shanghai Alice, or any original rights holders.
 
 部分宠物是基于角色印象制作的同人风格素材。本仓库为非官方项目，与 OpenAI、Codex、SEGA、Colorful Palette、上海爱丽丝幻乐团或任何原权利方无关。
-
