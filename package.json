@@ -1,0 +1,13 @@
+{
+  "name": "codex-pets",
+  "version": "0.2.0",
+  "description": "A community gallery of ready-to-use Codex desktop pets.",
+  "license": "SEE LICENSE IN LICENSE AND ASSET-LICENSE.md",
+  "scripts": {
+    "previews": "python scripts/generate_previews.py",
+    "readmes": "python scripts/generate_readmes.py",
+    "validate": "python scripts/validate_repo.py",
+    "build": "python scripts/generate_previews.py && python scripts/generate_readmes.py && python scripts/validate_repo.py",
+    "check": "python scripts/generate_previews.py --check && python scripts/generate_readmes.py --check && python scripts/validate_repo.py"
+  }
+}

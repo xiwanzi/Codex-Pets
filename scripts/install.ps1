@@ -1,5 +1,4 @@
 param(
-    [ValidateSet("all", "kanade", "remi")]
     [string]$Pet = "all",
     [string]$CodexHome = "$env:USERPROFILE\.codex"
 )
@@ -19,6 +18,10 @@ if ($Pet -eq "all") {
 New-Item -ItemType Directory -Force -Path $targetRoot | Out-Null
 
 foreach ($petId in $pets) {
+    if ($petId -notmatch "^[a-z0-9]+(-[a-z0-9]+)*--[a-z0-9]+(-[a-z0-9]+)*$") {
+        throw "Invalid pet id: $petId. Expected format: pet-slug--author-slug"
+    }
+
     $source = Join-Path $sourceRoot $petId
     $target = Join-Path $targetRoot $petId
     if (!(Test-Path -LiteralPath (Join-Path $source "pet.json")) -or !(Test-Path -LiteralPath (Join-Path $source "spritesheet.webp"))) {
@@ -31,4 +34,3 @@ foreach ($petId in $pets) {
 }
 
 Write-Host "Done. Restart Codex if the new pets do not appear immediately."
-

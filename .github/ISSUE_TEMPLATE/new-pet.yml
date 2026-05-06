@@ -10,24 +10,27 @@ body:
 
         感谢投稿新的 Codex 桌宠。
 
-        Please attach a zip containing `pet.json`, `spritesheet.webp`, and `contact-sheet.png`.
+        Please attach a zip containing `submission.json`, `pet.json`, `spritesheet.webp`, and `contact-sheet.png`.
 
-        请上传包含 `pet.json`、`spritesheet.webp` 和 `contact-sheet.png` 的 zip。
+        请上传包含 `submission.json`、`pet.json`、`spritesheet.webp` 和 `contact-sheet.png` 的 zip。
+
   - type: input
     id: pet_id
     attributes:
       label: Pet ID / 宠物 ID
-      description: Lowercase letters, numbers, and hyphens only. Example: my-pet
-      placeholder: my-pet
+      description: Use pet-slug--author-slug. Example: remi--your-name
+      placeholder: remi--your-name
     validations:
       required: true
+
   - type: input
     id: display_name
     attributes:
       label: Display name / 显示名称
-      placeholder: My Pet
+      placeholder: Remi
     validations:
       required: true
+
   - type: textarea
     id: description_en
     attributes:
@@ -35,6 +38,7 @@ body:
       placeholder: A short description for README and pets.json.
     validations:
       required: true
+
   - type: textarea
     id: description_zh
     attributes:
@@ -42,6 +46,7 @@ body:
       placeholder: 用于 README 和 pets.json 的简短中文描述。
     validations:
       required: false
+
   - type: textarea
     id: source_rights
     attributes:
@@ -50,11 +55,14 @@ body:
       placeholder: This pet is original/generated/fanwork-inspired. I have permission to share it.
     validations:
       required: true
+
   - type: checkboxes
     id: checklist
     attributes:
       label: Checklist / 检查清单
       options:
+        - label: The zip includes submission.json.
+          required: true
         - label: The zip includes pet.json.
           required: true
         - label: The zip includes spritesheet.webp.
@@ -63,4 +71,3 @@ body:
           required: true
         - label: I agree to distribute the submitted assets under ASSET-LICENSE.md.
           required: true
-

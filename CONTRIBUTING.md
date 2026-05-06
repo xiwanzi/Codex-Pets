@@ -13,28 +13,27 @@ Use this path if you are comfortable with GitHub forks and pull requests.
 如果你会使用 GitHub fork 和 PR，推荐使用这个方式。
 
 1. Fork this repository.
-2. Add your pet package under `pets/<pet-id>/`.
-3. Add a contact sheet under `previews/<pet-id>/contact-sheet.png`.
-4. Optionally add state preview videos under `previews/<pet-id>/videos/`.
-5. Update `pets.json`.
-6. Run validation:
+2. Put your package under `pets/<pet-slug>--<author-slug>/`.
+3. Include exactly `submission.json`, `pet.json`, and `spritesheet.webp` in that pet package.
+4. Add `previews/<pet-slug>--<author-slug>/contact-sheet.png`.
+5. Update `pets.json`, or run `python scripts/add_pet.py ...`.
+6. Run the build/check commands.
 
 ```bash
-python -m pip install pillow
+python -m pip install -r requirements.txt
+python scripts/generate_previews.py
+python scripts/generate_readmes.py
 python scripts/validate_repo.py
 ```
+
+中文步骤：
 
 1. Fork 本仓库。
-2. 把宠物包放到 `pets/<pet-id>/`。
-3. 把预览图放到 `previews/<pet-id>/contact-sheet.png`。
-4. 可选：把状态预览视频放到 `previews/<pet-id>/videos/`。
-5. 更新 `pets.json`。
-6. 运行校验：
-
-```bash
-python -m pip install pillow
-python scripts/validate_repo.py
-```
+2. 把宠物包放到 `pets/<pet-slug>--<author-slug>/`。
+3. 宠物包里只保留 `submission.json`、`pet.json`、`spritesheet.webp`。
+4. 添加 `previews/<pet-slug>--<author-slug>/contact-sheet.png`。
+5. 更新 `pets.json`，也可以使用 `python scripts/add_pet.py ...`。
+6. 运行生成和校验命令。
 
 ### 2. Issue Upload / Issue 上传
 
@@ -47,6 +46,7 @@ Open a "New pet submission" issue and attach a `.zip` file containing:
 打开 "New pet submission" Issue，并上传一个 `.zip`，其中包含：
 
 ```text
+submission.json
 pet.json
 spritesheet.webp
 contact-sheet.png
@@ -57,14 +57,19 @@ A maintainer can then validate and merge it.
 
 维护者可以帮你校验并合入仓库。
 
-## Required Pet Package / 必需宠物包结构
+## Package Layout / 宠物包结构
+
+Pet IDs use `pet-slug--author-slug`. This allows several authors to submit different versions of the same character without collisions.
+
+宠物 ID 使用 `pet-slug--author-slug`，这样同一个角色可以有不同作者版本并存。
 
 ```text
-pets/<pet-id>/
+pets/<pet-slug>--<author-slug>/
+  submission.json
   pet.json
   spritesheet.webp
 
-previews/<pet-id>/
+previews/<pet-slug>--<author-slug>/
   contact-sheet.png
   videos/               optional / 可选
 ```
@@ -75,10 +80,32 @@ previews/<pet-id>/
 
 ```json
 {
-  "id": "my-pet",
+  "id": "my-pet--your-name",
   "displayName": "My Pet",
   "description": "Short English description.",
   "spritesheetPath": "spritesheet.webp"
+}
+```
+
+`submission.json` format:
+
+`submission.json` 格式：
+
+```json
+{
+  "slug": "my-pet--your-name",
+  "pet_slug": "my-pet",
+  "author_slug": "your-name",
+  "name": "My Pet",
+  "name_en": "My Pet",
+  "description": "Short English description.",
+  "description_zh": "简短中文描述。",
+  "author": "Your Name",
+  "author_handle": "your-name",
+  "author_url": "https://github.com/your-name",
+  "primary_category": "Anime Characters",
+  "primary_category_zh": "动漫人物",
+  "license": "CC BY-NC-SA 4.0"
 }
 ```
 
@@ -96,33 +123,14 @@ previews/<pet-id>/
 - 图集必须是 8 列 x 9 行。
 - 每格尺寸是 `192x208`。
 - 未使用的格子必须透明。
-- 必需行：`idle`、`running-right`、`running-left`、`waving`、`jumping`、`failed`、`waiting`、`running`、`review`。
-
-## Metadata / 元数据
-
-Update `pets.json` with both English and Chinese metadata when possible.
-
-尽量在 `pets.json` 中同时填写英文和中文元数据。
-
-```json
-{
-  "id": "my-pet",
-  "displayName": "My Pet",
-  "displayNameEn": "My Pet",
-  "description": "Short English description.",
-  "descriptionZh": "简短中文描述。",
-  "packagePath": "pets/my-pet",
-  "previewPath": "previews/my-pet/contact-sheet.png"
-}
-```
+- 必需动作行：`idle`、`running-right`、`running-left`、`waving`、`jumping`、`failed`、`waiting`、`running`、`review`。
 
 ## Rights And Fanwork / 权利与同人说明
 
 Only submit assets you are allowed to share. If your pet is inspired by an existing character, say so in the PR or Issue.
 
-只提交你有权分享的素材。如果桌宠灵感来自已有角色，请在 PR 或 Issue 里说明。
+只提交你有权分享的素材。如果宠物灵感来自已有角色，请在 PR 或 Issue 里说明。
 
 By submitting, you agree that the pet assets can be distributed under `ASSET-LICENSE.md`.
 
 提交即表示你同意宠物素材按 `ASSET-LICENSE.md` 分发。
-

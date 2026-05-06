@@ -1,125 +1,69 @@
-# Codex Desktop Pets / Codex 桌宠合集
+<div align="center">
 
-Ready-to-use custom desktop pets for the Codex desktop app.
+# Codex Pets
 
-这是一个已经打包好的 Codex 桌面宠物合集。下载后可以直接复制到本机 Codex 的 `pets` 目录，不需要重新生成 spritesheet。
+English | [简体中文](./docs/zh-CN/README.md)
 
-## Pets / 宠物列表
+![pets: 2](https://img.shields.io/badge/pets-2-2ea44f) ![languages: en | zh-CN](https://img.shields.io/badge/languages-en%20%7C%20zh--CN-8250df) ![code: MIT](https://img.shields.io/badge/code-MIT-111111) ![assets: CC BY-NC-SA 4.0](https://img.shields.io/badge/assets-CC%20BY--NC--SA%204.0-f97316) ![install: one command](https://img.shields.io/badge/install-one%20command-111111) [![Validate pets](https://github.com/xiwanzi/Codex-Pets/actions/workflows/validate.yml/badge.svg)](https://github.com/xiwanzi/Codex-Pets/actions/workflows/validate.yml)
 
-| ID | Name / 名称 | Package / 包目录 | Preview / 预览 |
-| --- | --- | --- | --- |
-| `kanade` | 宵崎奏 / Kanade | `pets/kanade` | `previews/kanade/contact-sheet.png` |
-| `remi` | Remi / 蕾米莉亚风格 Remi | `pets/remi` | `previews/remi/contact-sheet.png` |
+</div>
 
-## Install / 安装
+A community gallery of ready-to-use custom pets for the Codex desktop app, with generated action previews and one-command installation.
 
-### Windows PowerShell
-
-```powershell
-.\scripts\install.ps1
-```
-
-Install one pet only:
-
-```powershell
-.\scripts\install.ps1 -Pet remi
-```
-
-只安装一只宠物：
-
-```powershell
-.\scripts\install.ps1 -Pet kanade
-```
-
-### macOS / Linux
-
-```bash
-bash scripts/install.sh
-```
-
-Install one pet only:
-
-```bash
-bash scripts/install.sh remi
-```
-
-### Manual install / 手动安装
-
-Copy each pet folder under `pets/` into your Codex config directory:
-
-把 `pets/` 下的宠物文件夹复制到 Codex 配置目录：
+Each pet is a small shareable package:
 
 ```text
-Windows: %USERPROFILE%\.codex\pets\<pet-id>\
-macOS/Linux: ~/.codex/pets/<pet-id>/
+pets/<pet-slug>--<author-slug>/
+├── submission.json
+├── pet.json
+└── spritesheet.webp
 ```
 
-Each pet folder must contain:
+Pet folders contain only final package files. Gallery previews are generated into `assets/previews/<pet-id>/`.
 
-每个宠物目录必须包含：
+## Quick Install
 
-```text
-pet.json
-spritesheet.webp
+No clone required. Install directly from GitHub:
+
+```bash
+curl -fsSL https://raw.githubusercontent.com/xiwanzi/Codex-Pets/main/scripts/install-pet.sh | bash -s -- kanade--xiwanzi
 ```
 
-Restart Codex after installing if the new pet does not appear immediately.
+List available pets:
 
-如果安装后没有立刻显示，重启 Codex。当前 Codex 桌面端有时不会热加载新宠物资源。
+```bash
+curl -fsSL https://raw.githubusercontent.com/xiwanzi/Codex-Pets/main/scripts/install-pet.sh | bash -s -- --list
+```
 
-## Preview / 预览
+Windows PowerShell:
 
-Contact sheets:
+```powershell
+powershell -NoProfile -ExecutionPolicy Bypass -Command "iwr -UseB https://raw.githubusercontent.com/xiwanzi/Codex-Pets/main/scripts/install-pet.ps1 | iex; Install-CodexPet kanade--xiwanzi"
+```
 
-预览图：
+## Pets
 
-- `previews/kanade/contact-sheet.png`
-- `previews/remi/contact-sheet.png`
+### Anime Characters
 
-State preview videos are under:
+<table>
+<tr><th>Name</th><td colspan="5"><a href="./pets/kanade--xiwanzi">Kanade</a> · by [@xiwanzi](https://github.com/xiwanzi) · Anime Characters</td></tr>
+<tr><th>Install</th><td colspan="5"><code>curl -fsSL https://raw.githubusercontent.com/xiwanzi/Codex-Pets/main/scripts/install-pet.sh | bash -s -- kanade--xiwanzi</code></td></tr>
+<tr><th>Action</th><td><strong>Idle</strong></td><td><strong>Waving</strong></td><td><strong>Running</strong></td><td><strong>Waiting</strong></td><td><strong>Review</strong></td></tr>
+<tr><th>Preview</th><td><img src="./assets/previews/kanade--xiwanzi/gifs/idle.gif" alt="Kanade idle" width="120" height="130"></td><td><img src="./assets/previews/kanade--xiwanzi/gifs/waving.gif" alt="Kanade waving" width="120" height="130"></td><td><img src="./assets/previews/kanade--xiwanzi/gifs/running.gif" alt="Kanade running" width="120" height="130"></td><td><img src="./assets/previews/kanade--xiwanzi/gifs/waiting.gif" alt="Kanade waiting" width="120" height="130"></td><td><img src="./assets/previews/kanade--xiwanzi/gifs/review.gif" alt="Kanade review" width="120" height="130"></td></tr>
+</table>
 
-状态动画预览视频在：
+<table>
+<tr><th>Name</th><td colspan="5"><a href="./pets/remi--xiwanzi">Remi</a> · by [@xiwanzi](https://github.com/xiwanzi) · Anime Characters</td></tr>
+<tr><th>Install</th><td colspan="5"><code>curl -fsSL https://raw.githubusercontent.com/xiwanzi/Codex-Pets/main/scripts/install-pet.sh | bash -s -- remi--xiwanzi</code></td></tr>
+<tr><th>Action</th><td><strong>Idle</strong></td><td><strong>Waving</strong></td><td><strong>Running</strong></td><td><strong>Waiting</strong></td><td><strong>Review</strong></td></tr>
+<tr><th>Preview</th><td><img src="./assets/previews/remi--xiwanzi/gifs/idle.gif" alt="Remi idle" width="120" height="130"></td><td><img src="./assets/previews/remi--xiwanzi/gifs/waving.gif" alt="Remi waving" width="120" height="130"></td><td><img src="./assets/previews/remi--xiwanzi/gifs/running.gif" alt="Remi running" width="120" height="130"></td><td><img src="./assets/previews/remi--xiwanzi/gifs/waiting.gif" alt="Remi waiting" width="120" height="130"></td><td><img src="./assets/previews/remi--xiwanzi/gifs/review.gif" alt="Remi review" width="120" height="130"></td></tr>
+</table>
 
-- `previews/kanade/videos/`
-- `previews/remi/videos/`
+## Submit a Pet
 
-## Contribute Pets / 投稿新桌宠
+Use `pet-slug--author-slug` so multiple versions of the same character can coexist. See [CONTRIBUTING.md](./CONTRIBUTING.md) and [docs/PET_SPEC.md](./docs/PET_SPEC.md).
 
-There are two supported submission paths:
+## License
 
-支持两种投稿方式：
-
-- Pull request: add `pets/<pet-id>/`, add a contact sheet, update `pets.json`, and run `python scripts/validate_repo.py`.
-- Issue upload: open a "New pet submission" issue and attach a zip containing `pet.json`, `spritesheet.webp`, and `contact-sheet.png`.
-
-- PR 投稿：添加 `pets/<pet-id>/`，添加预览图，更新 `pets.json`，然后运行 `python scripts/validate_repo.py`。
-- Issue 上传：打开 "New pet submission" Issue，上传包含 `pet.json`、`spritesheet.webp`、`contact-sheet.png` 的 zip。
-
-See `CONTRIBUTING.md` and `docs/PET_SPEC.md`.
-
-详见 `CONTRIBUTING.md` 和 `docs/PET_SPEC.md`。
-
-## Format / 格式
-
-These pets follow the current Codex custom pet package shape:
-
-这些宠物遵循当前 Codex 自定义宠物包格式：
-
-- `spritesheet.webp`: `1536x1872`, RGBA, 8 columns x 9 rows.
-- `pet.json`: pet id, display name, description, and spritesheet path.
-- Cell size: `192x208`.
-- Rows: `idle`, `running-right`, `running-left`, `waving`, `jumping`, `failed`, `waiting`, `running`, `review`.
-
-## License / 许可证
-
-- Repo docs and install scripts are licensed under MIT. See `LICENSE`.
-- Pet artwork, spritesheets, contact sheets, and preview videos are licensed under the asset terms in `ASSET-LICENSE.md`.
-
-- 仓库文档和安装脚本使用 MIT 许可证，见 `LICENSE`。
-- 宠物图像、spritesheet、预览图和视频使用 `ASSET-LICENSE.md` 中的素材许可。
-
-## Fanwork notice / 同人声明
-
-Some pets are fan-made, character-inspired assets. This repository is unofficial and is not affiliated with OpenAI, Codex, SEGA, Colorful Palette, Team Shanghai Alice, or any original rights holders.
-
-部分宠物是基于角色印象制作的同人风格素材。本仓库为非官方项目，与 OpenAI、Codex、SEGA、Colorful Palette、上海爱丽丝幻乐团或任何原权利方无关。
+- Code and scripts: [MIT](./LICENSE)
+- Pet assets and generated previews: [asset license](./ASSET-LICENSE.md)
