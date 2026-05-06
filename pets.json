@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "pets": [
+    {
+      "id": "kanade",
+      "displayName": "宵崎奏",
+      "displayNameEn": "Kanade",
+      "description": "A quiet chibi digital pet inspired by a pale long-haired composer in an oversized navy jacket.",
+      "descriptionZh": "一只安静的 Q 版桌宠，灵感来自浅色长发、穿着宽大深蓝外套的作曲少女。",
+      "packagePath": "pets/kanade",
+      "previewPath": "previews/kanade/contact-sheet.png"
+    },
+    {
+      "id": "remi",
+      "displayName": "Remi",
+      "displayNameEn": "Remi",
+      "description": "A cute chibi vampire pet inspired by Remilia Scarlet, with red eyes, pale blue-purple hair, pink frills, red bows, and tiny bat wings.",
+      "descriptionZh": "一只可爱的 Q 版吸血鬼桌宠，灵感来自蕾米莉亚的红眼、浅蓝紫短发、粉色荷叶边、红色蝴蝶结和小蝙蝠翼。",
+      "packagePath": "pets/remi",
+      "previewPath": "previews/remi/contact-sheet.png"
+    }
+  ]
+}
+
