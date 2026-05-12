@@ -15,6 +15,21 @@
     "license": "CC BY-NC-SA 4.0"
   },
   {
+    "slug": "kurumi--xiwanzi",
+    "pet_slug": "kurumi",
+    "author_slug": "xiwanzi",
+    "name": "时崎狂三",
+    "name_en": "Kurumi",
+    "description": "A tiny clockwork gothic twin-tailed pet inspired by Kurumi Tokisaki, with red-black frills, ribbons, a clock eye, and a small pocket watch.",
+    "description_zh": "一只 Q 版时钟哥特桌宠，灵感来自时崎狂三的黑红荷叶边、双马尾、红色缎带、时钟眼和小怀表。",
+    "author": "xiwanzi",
+    "author_handle": "xiwanzi",
+    "author_url": "https://github.com/xiwanzi",
+    "primary_category": "Anime Characters",
+    "primary_category_zh": "动漫人物",
+    "license": "CC BY-NC-SA 4.0"
+  },
+  {
     "slug": "remi--xiwanzi",
     "pet_slug": "remi",
     "author_slug": "xiwanzi",
@@ -30,4 +45,3 @@
     "license": "CC BY-NC-SA 4.0"
   }
 ]
-

@@ -51,6 +51,13 @@ powershell -NoProfile -ExecutionPolicy Bypass -Command "iwr -UseB https://raw.gi
 </table>
 
 <table>
+<tr><th>名称</th><td colspan="5"><a href="../../pets/kurumi--xiwanzi">时崎狂三</a> · 作者 [@xiwanzi](https://github.com/xiwanzi) · 动漫人物</td></tr>
+<tr><th>安装</th><td colspan="5"><code>curl -fsSL https://raw.githubusercontent.com/xiwanzi/Codex-Pets/main/scripts/install-pet.sh | bash -s -- kurumi--xiwanzi</code></td></tr>
+<tr><th>动作</th><td><strong>待机</strong></td><td><strong>挥手</strong></td><td><strong>忙碌</strong></td><td><strong>等待</strong></td><td><strong>审阅</strong></td></tr>
+<tr><th>预览</th><td><img src="../../assets/previews/kurumi--xiwanzi/gifs/idle.gif" alt="时崎狂三 idle" width="120" height="130"></td><td><img src="../../assets/previews/kurumi--xiwanzi/gifs/waving.gif" alt="时崎狂三 waving" width="120" height="130"></td><td><img src="../../assets/previews/kurumi--xiwanzi/gifs/running.gif" alt="时崎狂三 running" width="120" height="130"></td><td><img src="../../assets/previews/kurumi--xiwanzi/gifs/waiting.gif" alt="时崎狂三 waiting" width="120" height="130"></td><td><img src="../../assets/previews/kurumi--xiwanzi/gifs/review.gif" alt="时崎狂三 review" width="120" height="130"></td></tr>
+</table>
+
+<table>
 <tr><th>名称</th><td colspan="5"><a href="../../pets/remi--xiwanzi">Remi</a> · 作者 [@xiwanzi](https://github.com/xiwanzi) · 动漫人物</td></tr>
 <tr><th>安装</th><td colspan="5"><code>curl -fsSL https://raw.githubusercontent.com/xiwanzi/Codex-Pets/main/scripts/install-pet.sh | bash -s -- remi--xiwanzi</code></td></tr>
 <tr><th>动作</th><td><strong>待机</strong></td><td><strong>挥手</strong></td><td><strong>忙碌</strong></td><td><strong>等待</strong></td><td><strong>审阅</strong></td></tr>

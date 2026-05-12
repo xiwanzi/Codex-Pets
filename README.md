@@ -4,7 +4,7 @@
 
 English | [简体中文](./docs/zh-CN/README.md)
 
-![pets: 2](https://img.shields.io/badge/pets-2-2ea44f) ![languages: en | zh-CN](https://img.shields.io/badge/languages-en%20%7C%20zh--CN-8250df) ![code: MIT](https://img.shields.io/badge/code-MIT-111111) ![assets: CC BY-NC-SA 4.0](https://img.shields.io/badge/assets-CC%20BY--NC--SA%204.0-f97316) ![install: one command](https://img.shields.io/badge/install-one%20command-111111) [![Validate pets](https://github.com/xiwanzi/Codex-Pets/actions/workflows/validate.yml/badge.svg)](https://github.com/xiwanzi/Codex-Pets/actions/workflows/validate.yml)
+![pets: 3](https://img.shields.io/badge/pets-3-2ea44f) ![languages: en | zh-CN](https://img.shields.io/badge/languages-en%20%7C%20zh--CN-8250df) ![code: MIT](https://img.shields.io/badge/code-MIT-111111) ![assets: CC BY-NC-SA 4.0](https://img.shields.io/badge/assets-CC%20BY--NC--SA%204.0-f97316) ![install: one command](https://img.shields.io/badge/install-one%20command-111111) [![Validate pets](https://github.com/xiwanzi/Codex-Pets/actions/workflows/validate.yml/badge.svg)](https://github.com/xiwanzi/Codex-Pets/actions/workflows/validate.yml)
 
 </div>
 
@@ -50,6 +50,13 @@ powershell -NoProfile -ExecutionPolicy Bypass -Command "iwr -UseB https://raw.gi
 <tr><th>Install</th><td colspan="5"><code>curl -fsSL https://raw.githubusercontent.com/xiwanzi/Codex-Pets/main/scripts/install-pet.sh | bash -s -- kanade--xiwanzi</code></td></tr>
 <tr><th>Action</th><td><strong>Idle</strong></td><td><strong>Waving</strong></td><td><strong>Running</strong></td><td><strong>Waiting</strong></td><td><strong>Review</strong></td></tr>
 <tr><th>Preview</th><td><img src="./assets/previews/kanade--xiwanzi/gifs/idle.gif" alt="Kanade idle" width="120" height="130"></td><td><img src="./assets/previews/kanade--xiwanzi/gifs/waving.gif" alt="Kanade waving" width="120" height="130"></td><td><img src="./assets/previews/kanade--xiwanzi/gifs/running.gif" alt="Kanade running" width="120" height="130"></td><td><img src="./assets/previews/kanade--xiwanzi/gifs/waiting.gif" alt="Kanade waiting" width="120" height="130"></td><td><img src="./assets/previews/kanade--xiwanzi/gifs/review.gif" alt="Kanade review" width="120" height="130"></td></tr>
+</table>
+
+<table>
+<tr><th>Name</th><td colspan="5"><a href="./pets/kurumi--xiwanzi">Kurumi</a> · by [@xiwanzi](https://github.com/xiwanzi) · Anime Characters</td></tr>
+<tr><th>Install</th><td colspan="5"><code>curl -fsSL https://raw.githubusercontent.com/xiwanzi/Codex-Pets/main/scripts/install-pet.sh | bash -s -- kurumi--xiwanzi</code></td></tr>
+<tr><th>Action</th><td><strong>Idle</strong></td><td><strong>Waving</strong></td><td><strong>Running</strong></td><td><strong>Waiting</strong></td><td><strong>Review</strong></td></tr>
+<tr><th>Preview</th><td><img src="./assets/previews/kurumi--xiwanzi/gifs/idle.gif" alt="Kurumi idle" width="120" height="130"></td><td><img src="./assets/previews/kurumi--xiwanzi/gifs/waving.gif" alt="Kurumi waving" width="120" height="130"></td><td><img src="./assets/previews/kurumi--xiwanzi/gifs/running.gif" alt="Kurumi running" width="120" height="130"></td><td><img src="./assets/previews/kurumi--xiwanzi/gifs/waiting.gif" alt="Kurumi waiting" width="120" height="130"></td><td><img src="./assets/previews/kurumi--xiwanzi/gifs/review.gif" alt="Kurumi review" width="120" height="130"></td></tr>
 </table>
 
 <table>
