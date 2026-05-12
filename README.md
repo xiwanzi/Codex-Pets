@@ -4,7 +4,7 @@
 
 English | [简体中文](./docs/zh-CN/README.md)
 
-![pets: 4](https://img.shields.io/badge/pets-4-2ea44f) ![languages: en | zh-CN](https://img.shields.io/badge/languages-en%20%7C%20zh--CN-8250df) ![code: MIT](https://img.shields.io/badge/code-MIT-111111) ![assets: CC BY-NC-SA 4.0](https://img.shields.io/badge/assets-CC%20BY--NC--SA%204.0-f97316) ![install: one command](https://img.shields.io/badge/install-one%20command-111111) [![Validate pets](https://github.com/xiwanzi/Codex-Pets/actions/workflows/validate.yml/badge.svg)](https://github.com/xiwanzi/Codex-Pets/actions/workflows/validate.yml)
+![pets: 5](https://img.shields.io/badge/pets-5-2ea44f) ![languages: en | zh-CN](https://img.shields.io/badge/languages-en%20%7C%20zh--CN-8250df) ![code: MIT](https://img.shields.io/badge/code-MIT-111111) ![assets: CC BY-NC-SA 4.0](https://img.shields.io/badge/assets-CC%20BY--NC--SA%204.0-f97316) ![install: one command](https://img.shields.io/badge/install-one%20command-111111) [![Validate pets](https://github.com/xiwanzi/Codex-Pets/actions/workflows/validate.yml/badge.svg)](https://github.com/xiwanzi/Codex-Pets/actions/workflows/validate.yml)
 
 </div>
 
@@ -71,6 +71,15 @@ powershell -NoProfile -ExecutionPolicy Bypass -Command "iwr -UseB https://raw.gi
 <tr><th>Install</th><td colspan="5"><code>curl -fsSL https://raw.githubusercontent.com/xiwanzi/Codex-Pets/main/scripts/install-pet.sh | bash -s -- remi--xiwanzi</code></td></tr>
 <tr><th>Action</th><td><strong>Idle</strong></td><td><strong>Waving</strong></td><td><strong>Running</strong></td><td><strong>Waiting</strong></td><td><strong>Review</strong></td></tr>
 <tr><th>Preview</th><td><img src="./assets/previews/remi--xiwanzi/gifs/idle.gif" alt="Remi idle" width="120" height="130"></td><td><img src="./assets/previews/remi--xiwanzi/gifs/waving.gif" alt="Remi waving" width="120" height="130"></td><td><img src="./assets/previews/remi--xiwanzi/gifs/running.gif" alt="Remi running" width="120" height="130"></td><td><img src="./assets/previews/remi--xiwanzi/gifs/waiting.gif" alt="Remi waiting" width="120" height="130"></td><td><img src="./assets/previews/remi--xiwanzi/gifs/review.gif" alt="Remi review" width="120" height="130"></td></tr>
+</table>
+
+### Original Characters
+
+<table>
+<tr><th>Name</th><td colspan="5"><a href="./pets/kefu-xiaoxiang--xiwanzi">Xiaoxiang</a> · by [@xiwanzi](https://github.com/xiwanzi) · Original Characters</td></tr>
+<tr><th>Install</th><td colspan="5"><code>curl -fsSL https://raw.githubusercontent.com/xiwanzi/Codex-Pets/main/scripts/install-pet.sh | bash -s -- kefu-xiaoxiang--xiwanzi</code></td></tr>
+<tr><th>Action</th><td><strong>Idle</strong></td><td><strong>Waving</strong></td><td><strong>Running</strong></td><td><strong>Waiting</strong></td><td><strong>Review</strong></td></tr>
+<tr><th>Preview</th><td><img src="./assets/previews/kefu-xiaoxiang--xiwanzi/gifs/idle.gif" alt="Xiaoxiang idle" width="120" height="130"></td><td><img src="./assets/previews/kefu-xiaoxiang--xiwanzi/gifs/waving.gif" alt="Xiaoxiang waving" width="120" height="130"></td><td><img src="./assets/previews/kefu-xiaoxiang--xiwanzi/gifs/running.gif" alt="Xiaoxiang running" width="120" height="130"></td><td><img src="./assets/previews/kefu-xiaoxiang--xiwanzi/gifs/waiting.gif" alt="Xiaoxiang waiting" width="120" height="130"></td><td><img src="./assets/previews/kefu-xiaoxiang--xiwanzi/gifs/review.gif" alt="Xiaoxiang review" width="120" height="130"></td></tr>
 </table>
 
 ## Submit a Pet
