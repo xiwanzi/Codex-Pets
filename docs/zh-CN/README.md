@@ -24,7 +24,7 @@ pet 目录只放最终成品文件。预览图会自动生成到 `assets/preview
 不需要 clone 仓库，直接从 GitHub 安装：
 
 ```bash
-curl -fsSL https://raw.githubusercontent.com/xiwanzi/Codex-Pets/main/scripts/install-pet.sh | bash -s -- kanade--xiwanzi
+curl -fsSL https://raw.githubusercontent.com/xiwanzi/Codex-Pets/main/scripts/install-pet.sh | bash -s -- chino--xiwanzi
 ```
 
 查看可安装的 pet：
@@ -36,12 +36,19 @@ curl -fsSL https://raw.githubusercontent.com/xiwanzi/Codex-Pets/main/scripts/ins
 Windows PowerShell：
 
 ```powershell
-powershell -NoProfile -ExecutionPolicy Bypass -Command "iwr -UseB https://raw.githubusercontent.com/xiwanzi/Codex-Pets/main/scripts/install-pet.ps1 | iex; Install-CodexPet kanade--xiwanzi"
+powershell -NoProfile -ExecutionPolicy Bypass -Command "iwr -UseB https://raw.githubusercontent.com/xiwanzi/Codex-Pets/main/scripts/install-pet.ps1 | iex; Install-CodexPet chino--xiwanzi"
 ```
 
 ## Pet 收录
 
 ### 动漫人物
+
+<table>
+<tr><th>名称</th><td colspan="5"><a href="../../pets/chino--xiwanzi">香风智乃</a> · 作者 [@xiwanzi](https://github.com/xiwanzi) · 动漫人物</td></tr>
+<tr><th>安装</th><td colspan="5"><code>curl -fsSL https://raw.githubusercontent.com/xiwanzi/Codex-Pets/main/scripts/install-pet.sh | bash -s -- chino--xiwanzi</code></td></tr>
+<tr><th>动作</th><td><strong>待机</strong></td><td><strong>挥手</strong></td><td><strong>忙碌</strong></td><td><strong>等待</strong></td><td><strong>审阅</strong></td></tr>
+<tr><th>预览</th><td><img src="../../assets/previews/chino--xiwanzi/gifs/idle.gif" alt="香风智乃 idle" width="120" height="130"></td><td><img src="../../assets/previews/chino--xiwanzi/gifs/waving.gif" alt="香风智乃 waving" width="120" height="130"></td><td><img src="../../assets/previews/chino--xiwanzi/gifs/running.gif" alt="香风智乃 running" width="120" height="130"></td><td><img src="../../assets/previews/chino--xiwanzi/gifs/waiting.gif" alt="香风智乃 waiting" width="120" height="130"></td><td><img src="../../assets/previews/chino--xiwanzi/gifs/review.gif" alt="香风智乃 review" width="120" height="130"></td></tr>
+</table>
 
 <table>
 <tr><th>名称</th><td colspan="5"><a href="../../pets/kanade--xiwanzi">宵崎奏</a> · 作者 [@xiwanzi](https://github.com/xiwanzi) · 动漫人物</td></tr>
