@@ -15,18 +15,18 @@
     "license": "CC BY-NC-SA 4.0"
   },
   {
-    "slug": "kefu-xiaoxiang--xiwanzi",
-    "pet_slug": "kefu-xiaoxiang",
+    "slug": "sakiko--xiwanzi",
+    "pet_slug": "sakiko",
     "author_slug": "xiwanzi",
-    "name": "客服小祥",
-    "name_en": "Xiaoxiang",
-    "description": "A tiny customer-service companion with blue hair, green eyes, a headset, and a small laptop for focused support work.",
-    "description_zh": "一只专注工作的 Q 版客服桌宠，蓝色长发、绿色眼睛、客服耳麦，抱着小笔电处理工作。",
+    "name": "丰川祥子",
+    "name_en": "Sakiko Togawa",
+    "description": "A tiny chibi pet inspired by Sakiko Togawa, with blue hair, green eyes, a headset, a pale blouse, a black ribbon, and a small laptop.",
+    "description_zh": "一只 Q 版丰川祥子桌宠，蓝色长发、绿色眼睛、客服耳麦、浅色上衣、黑色蝴蝶结，并抱着小笔电工作。",
     "author": "xiwanzi",
     "author_handle": "xiwanzi",
     "author_url": "https://github.com/xiwanzi",
-    "primary_category": "Original Characters",
-    "primary_category_zh": "原创角色",
+    "primary_category": "Anime Characters",
+    "primary_category_zh": "动漫人物",
     "license": "CC BY-NC-SA 4.0"
   },
   {

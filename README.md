@@ -73,13 +73,11 @@ powershell -NoProfile -ExecutionPolicy Bypass -Command "iwr -UseB https://raw.gi
 <tr><th>Preview</th><td><img src="./assets/previews/remi--xiwanzi/gifs/idle.gif" alt="Remi idle" width="120" height="130"></td><td><img src="./assets/previews/remi--xiwanzi/gifs/waving.gif" alt="Remi waving" width="120" height="130"></td><td><img src="./assets/previews/remi--xiwanzi/gifs/running.gif" alt="Remi running" width="120" height="130"></td><td><img src="./assets/previews/remi--xiwanzi/gifs/waiting.gif" alt="Remi waiting" width="120" height="130"></td><td><img src="./assets/previews/remi--xiwanzi/gifs/review.gif" alt="Remi review" width="120" height="130"></td></tr>
 </table>
 
-### Original Characters
-
 <table>
-<tr><th>Name</th><td colspan="5"><a href="./pets/kefu-xiaoxiang--xiwanzi">Xiaoxiang</a> · by [@xiwanzi](https://github.com/xiwanzi) · Original Characters</td></tr>
-<tr><th>Install</th><td colspan="5"><code>curl -fsSL https://raw.githubusercontent.com/xiwanzi/Codex-Pets/main/scripts/install-pet.sh | bash -s -- kefu-xiaoxiang--xiwanzi</code></td></tr>
+<tr><th>Name</th><td colspan="5"><a href="./pets/sakiko--xiwanzi">Sakiko Togawa</a> · by [@xiwanzi](https://github.com/xiwanzi) · Anime Characters</td></tr>
+<tr><th>Install</th><td colspan="5"><code>curl -fsSL https://raw.githubusercontent.com/xiwanzi/Codex-Pets/main/scripts/install-pet.sh | bash -s -- sakiko--xiwanzi</code></td></tr>
 <tr><th>Action</th><td><strong>Idle</strong></td><td><strong>Waving</strong></td><td><strong>Running</strong></td><td><strong>Waiting</strong></td><td><strong>Review</strong></td></tr>
-<tr><th>Preview</th><td><img src="./assets/previews/kefu-xiaoxiang--xiwanzi/gifs/idle.gif" alt="Xiaoxiang idle" width="120" height="130"></td><td><img src="./assets/previews/kefu-xiaoxiang--xiwanzi/gifs/waving.gif" alt="Xiaoxiang waving" width="120" height="130"></td><td><img src="./assets/previews/kefu-xiaoxiang--xiwanzi/gifs/running.gif" alt="Xiaoxiang running" width="120" height="130"></td><td><img src="./assets/previews/kefu-xiaoxiang--xiwanzi/gifs/waiting.gif" alt="Xiaoxiang waiting" width="120" height="130"></td><td><img src="./assets/previews/kefu-xiaoxiang--xiwanzi/gifs/review.gif" alt="Xiaoxiang review" width="120" height="130"></td></tr>
+<tr><th>Preview</th><td><img src="./assets/previews/sakiko--xiwanzi/gifs/idle.gif" alt="Sakiko Togawa idle" width="120" height="130"></td><td><img src="./assets/previews/sakiko--xiwanzi/gifs/waving.gif" alt="Sakiko Togawa waving" width="120" height="130"></td><td><img src="./assets/previews/sakiko--xiwanzi/gifs/running.gif" alt="Sakiko Togawa running" width="120" height="130"></td><td><img src="./assets/previews/sakiko--xiwanzi/gifs/waiting.gif" alt="Sakiko Togawa waiting" width="120" height="130"></td><td><img src="./assets/previews/sakiko--xiwanzi/gifs/review.gif" alt="Sakiko Togawa review" width="120" height="130"></td></tr>
 </table>
 
 ## Submit a Pet
